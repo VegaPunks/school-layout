@@ -1,0 +1,87 @@
+.course {
+    padding: 16rem 0;
+    background: var(--light-background-color);
+}
+
+.course__content {
+    letter-spacing: 0.01rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 8rem;
+}
+
+.course__content-suptitle {
+    line-height: 171%;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.course__content-title {
+    font-size: 4rem;
+    line-height: 125%;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.course__content-desc {
+    font-weight: 400;
+    line-height: 143%;
+    color: var(--second-text-color);
+    max-width: 40rem;
+}
+
+
+
+.user-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-portfolio__item {
+    box-shadow: 0 1.3rem 1.9rem 0 rgba(0, 0, 0, 0.07);
+    background: var(--light-background-color);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.user-portfolio__item:hover>img {
+    transform: scale(1.1);
+}
+
+.user-portfolio__item>img {
+    object-fit: cover;
+    transition: transform.8s;
+}
+
+
+
+
+.user-portfolio__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 1rem;
+}
+
+.user-portfolio__name {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.user-portfolio__profes {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 133%;
+    letter-spacing: 0.02rem;
+    color: var(--second-text-color);
+    margin-bottom: 1rem;
+}
+
+.user-portfolio__socials {
+    display: flex;
+    column-gap: 2rem;
+}

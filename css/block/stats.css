@@ -1,0 +1,36 @@
+.stats {
+    padding: 8rem 0;
+    background: var(--light-background-color);
+}
+
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-list__item:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.info-list_title {
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 138%;
+    color: var(--primary-color);
+}
+
+.info-list_subtitle {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+    color: var(--text-color);
+}

@@ -1,0 +1,16 @@
+@import url(font.css);
+@import url(normalize.css);
+@import url(reset.css);
+@import url(variable.css);
+@import url(start.css);
+
+/* block */
+@import url(./block/header.css);
+@import url(./block/students.css);
+@import url(./block/stats.css);
+@import url(./block/client.css);
+@import url(./block/teacher.css);
+@import url(./block/reviews.css);
+@import url(./block/course.css);
+@import url(./block/news.css);
+@import url(./block/footer.css);

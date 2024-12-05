@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+main {
+    background: var(--light-gray-1);
+}
+
+.container {
+    max-width: 104.4rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.btn {
+    color: var(--primary-color);
+    border: none;
+    background: transparent;
+}
+
+.btn-outlined {
+    border: 1px solid var(--primary-color);
+}
+.btn-bg {
+    border: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--light-background-color);
+}
